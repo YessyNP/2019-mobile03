@@ -6,4 +6,45 @@
 	android:layout_height="match_parent"
 	tools:context=".SuccessLoginActivity">
 
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/guideline"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		app:layout_constraintGuide_percent="0.5" />
+
+	<ImageView
+		android:id="@+id/imageView3"
+		android:layout_width="410dp"
+		android:layout_height="369dp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@drawable/welkam4" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="303dp"
+		android:layout_height="76dp"
+		android:text="Succesful!"
+		android:textAlignment="center"
+		android:textColor="#000000"
+		android:textSize="45dp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		tools:ignore="MissingConstraints"
+		tools:layout_editor_absoluteY="369dp" />
+
+	<TextView
+		android:id="@+id/textView4"
+		android:layout_width="327dp"
+		android:layout_height="68dp"
+		android:textAlignment="center"
+		android:text="You have successfully changed password. Please use your new passwords when logging in"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		tools:layout_editor_absoluteY="445dp"
+		tools:ignore="MissingConstraints" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
