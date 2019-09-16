@@ -67,7 +67,7 @@
 		android:text="Login"
 		android:textSize="18sp"
 		android:fontFamily="@font/montserrat_light"
-		android:onClick="clickLogin"/>
+		/>
 
 	<Button
 		android:layout_width="350dp"
@@ -81,6 +81,7 @@
 		app:layout_constraintBottom_toTopOf="@+id/textView6"
 		app:layout_constraintEnd_toEndOf="@+id/imageView11"
 		app:layout_constraintHorizontal_bias="0.588"
-		app:layout_constraintStart_toStartOf="parent" />
+		app:layout_constraintStart_toStartOf="parent"
+		android:onClick="clickLogin"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

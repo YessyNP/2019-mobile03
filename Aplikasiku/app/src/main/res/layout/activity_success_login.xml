@@ -30,20 +30,21 @@
 		android:textColor="#000000"
 		android:textSize="45dp"
 		android:textStyle="bold"
+		app:layout_constraintBottom_toTopOf="@+id/textView4"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
-		tools:ignore="MissingConstraints"
-		tools:layout_editor_absoluteY="369dp" />
+		tools:ignore="MissingConstraints" />
 
 	<TextView
 		android:id="@+id/textView4"
 		android:layout_width="327dp"
 		android:layout_height="68dp"
-		android:textAlignment="center"
+		android:layout_marginBottom="184dp"
 		android:text="You have successfully changed password. Please use your new passwords when logging in"
+		android:textAlignment="center"
+		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
-		tools:layout_editor_absoluteY="445dp"
 		tools:ignore="MissingConstraints" />
 
 
